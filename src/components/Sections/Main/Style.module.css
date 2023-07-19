@@ -1,0 +1,24 @@
+.main {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 0px 15px;
+}
+
+.main .logo {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    user-select: none;
+}
+
+.main .logo img {
+    width: 300px;
+}
+
+.main .other_buttons {
+    display: flex;
+    gap: 15px;
+}

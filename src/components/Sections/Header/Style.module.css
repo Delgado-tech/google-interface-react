@@ -1,0 +1,59 @@
+/*header*/
+.header a {
+    cursor: pointer;
+    color: #121212;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header ul {
+    display: flex;
+    gap: 20px;
+    width: min-content;
+    align-items: center;
+    padding: 10px;
+}
+
+.header .google_apps {
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    transition: all .2s ease-in-out;
+}
+
+.header .google_apps:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.header .google_apps img{
+    width: 20px;
+}
+
+.header .profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: transparent;
+    transition: all .2s ease-in-out;
+}
+
+.header .profile:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.header .profile img{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+}
