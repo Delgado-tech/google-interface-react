@@ -1,6 +1,9 @@
 <img id="header" src="https://capsule-render.vercel.app/api?type=waving&color=25:0081c6,50:ee4931,75:fbab17,100:0aaf58&height=150&section=header" width="100%"/>
 
-# Interface do Google em React
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="100px" />
+  <h1> Interface do Google </h1>
+</div>
 
 <br>
 
